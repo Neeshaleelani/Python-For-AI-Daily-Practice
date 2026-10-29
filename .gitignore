@@ -12,4 +12,8 @@ __pycache__
 =======
 *_Notes.md
 *_Explained.md
+<<<<<<< HEAD
 >>>>>>> ccf47f023b45abe187129631ce5d29a7ced3a41c
+=======
+*.env
+>>>>>>> a52468fad70e3760427f682ffe3aac6bcedcb6bb
