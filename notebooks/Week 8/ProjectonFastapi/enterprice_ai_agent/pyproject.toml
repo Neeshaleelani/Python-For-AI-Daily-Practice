@@ -7,7 +7,11 @@ authors = [
     { name = "Neeshaleelani", email = "neeshaleelnai@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain-core>=1.7.7",
+    "langchain-openai>=1.7.4",
+    "langgraph>=1.2.20",
+]
 
 [project.scripts]
 enterprice-ai-agent = "enterprice_ai_agent:main"
