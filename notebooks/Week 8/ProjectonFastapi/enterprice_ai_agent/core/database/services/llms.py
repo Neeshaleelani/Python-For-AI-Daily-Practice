@@ -1,18 +1,18 @@
-from dotenv import load_dotenv
-from pathlib import Path
 
-env_path = Path('.env')
-load_dotenv(dotenv_path=env_path, override=True)
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 LLMs ={
-    "grok":{
+    "groq":{
         "baseUrl":"https://api.groq.com/openai/v1",
-        "apikey":"os.getenv('groq')",
+        "apiKey": os.getenv("groq"),
         "model":"openai/gpt-oss-120b"
     },
-    "ollama":{
-        "baseUrl":"https://api.groq.com/openai/v1",
-        "apikey":"",
-        "model":""
-    }
+      "ollama": {
+            "baseUrl": "http://localhost:11434/v1",
+            "apiKey": "ollama",
+            "model": "qwen3:4b"
+        }
 }

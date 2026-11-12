@@ -1,7 +1,7 @@
 import json
 import sqlite3
 from contextlib import closing
-from langchain_core.messages import messages_from_disct, messages_to_dict
+from langchain_core.messages import messages_from_dict, messages_to_dict
 
 def connect():
     return sqlite3.connect("/",timeout=30)

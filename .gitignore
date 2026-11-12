@@ -17,8 +17,14 @@ __pycache__
 >>>>>>> ccf47f023b45abe187129631ce5d29a7ced3a41c
 =======
 *.env
+<<<<<<< HEAD
 >>>>>>> a52468fad70e3760427f682ffe3aac6bcedcb6bb
 =======
 *.env
 class
 >>>>>>> b126913d914271602ed2a80bb62c99c8169b9d52
+=======
+class
+company_db
+chroma*
+>>>>>>> 10d119937a8a0ed853e798077f43b586e57add47
